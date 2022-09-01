@@ -1,5 +1,7 @@
 # cicd-activity
 
+ Configure your job to checkout code from the develop branch rather than the master branch
+ 
 ![image](https://user-images.githubusercontent.com/104793540/187959113-ea43616b-d45a-4c85-8fc2-63a91ffa73b0.png)
 ![image](https://user-images.githubusercontent.com/104793540/187959157-9686174a-9824-46a8-bb30-9434e4126ff9.png)
 ![image](https://user-images.githubusercontent.com/104793540/187959212-fd0c378d-96f9-40bf-ad7b-f8a18d753d39.png)
@@ -12,4 +14,21 @@ debugging:
 - ssh agent for 122 and eng122
 - http://18.133.180.208:8080/github-webhook/
 
+![image](https://user-images.githubusercontent.com/104793540/187960069-e6bb5d89-10f8-45ab-ad27-f423270d8925.png)
 ![image](https://user-images.githubusercontent.com/104793540/187959002-a5cda70d-7229-4354-a11e-1b2398c1f5d4.png)
+
+all my attemts before hand:
+
+![image](https://user-images.githubusercontent.com/104793540/187960161-c74aa057-354e-46d3-8ddb-b8bed17610ee.png)
+
+Have the job merge the develop branch code with the master branch and test against that
+
+![image](https://user-images.githubusercontent.com/104793540/187960543-98dbe58a-685a-43bc-afd5-d78f8df671fe.png)
+![image](https://user-images.githubusercontent.com/104793540/187961102-1a9bcf68-8786-401f-9ff1-d379f17e6f3a.png)
+![image](https://user-images.githubusercontent.com/104793540/187961330-7525d4e2-7194-4b6d-8407-cbe75e2fa054.png)
+
+so the following was done in dev on local host > pushed > jenkins recieved and tested > then merged with main after success 
+![image](https://user-images.githubusercontent.com/104793540/187961463-b53ea776-14ad-4d74-b6fd-76b571367aba.png)
+
+
+
