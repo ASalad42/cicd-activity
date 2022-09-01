@@ -1,6 +1,6 @@
-# cicd-activity
+# CICD Activity
 
- Configure your job to checkout code from the develop branch rather than the master branch
+ ## Configure your job to checkout code from the develop branch rather than the master branch
  
 ![image](https://user-images.githubusercontent.com/104793540/187959113-ea43616b-d45a-4c85-8fc2-63a91ffa73b0.png)
 ![image](https://user-images.githubusercontent.com/104793540/187959157-9686174a-9824-46a8-bb30-9434e4126ff9.png)
@@ -21,7 +21,7 @@ all my attemts before hand:
 
 ![image](https://user-images.githubusercontent.com/104793540/187960161-c74aa057-354e-46d3-8ddb-b8bed17610ee.png)
 
-Have the job merge the develop branch code with the master branch and test against that
+## Have job merge the develop branch code with the master branch and test against that
 
 ![image](https://user-images.githubusercontent.com/104793540/187960543-98dbe58a-685a-43bc-afd5-d78f8df671fe.png)
 ![image](https://user-images.githubusercontent.com/104793540/187961102-1a9bcf68-8786-401f-9ff1-d379f17e6f3a.png)
@@ -30,5 +30,5 @@ Have the job merge the develop branch code with the master branch and test again
 so the following was done in dev on local host > pushed > jenkins recieved and tested > then merged with main after success 
 ![image](https://user-images.githubusercontent.com/104793540/187961463-b53ea776-14ad-4d74-b6fd-76b571367aba.png)
 
-
+## create 3rd job to get code from main and deploy on AWS in a running ec2 instance
 
