@@ -8,6 +8,15 @@
 ![image](https://user-images.githubusercontent.com/104793540/187959281-fda4d5a5-fc0d-4001-a35f-281519b0efdb.png)
 ![image](https://user-images.githubusercontent.com/104793540/187959440-2980d45d-4b77-4f93-9c2a-c0e21bb736d1.png)
 
+local host:
+- view all branches with git branch 
+- create new branch with git branch name 
+- better is git checkout -b name to	Create a new branch and switch to it
+- git checkout command and specify the name of the branch you want to switch to.
+- remove branch with git branch -d name
+
+https://github.com/joshnh/Git-Commands
+
 debugging:
 - new deploy keys - uses eng122 public
 - jenkins uses private key for eng122
