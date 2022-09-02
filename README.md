@@ -46,6 +46,10 @@ so the following was done in dev on local host > pushed > jenkins recieved and t
 - add contents of pem file into ssh > credentials 
 - create new ec2 instance (new feature so cant use ami)
 - Create sg – allow Jenkins ip to ssh in as well as any rules required 
+
+![image](https://user-images.githubusercontent.com/104793540/188116470-6a777581-2647-4cfd-8b53-f69c17a74f67.png)
+
+
 - Create 3rd job in Jenkins: get the code from main branch and copy (scp) to ec2 – run the script  to install node with any other required dependencies  
 - 3rd job only triggered 
 - First iteration run npm install & npm start manually 
