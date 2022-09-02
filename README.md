@@ -1,6 +1,6 @@
 # CICD Activity
 
-![image](https://user-images.githubusercontent.com/104793540/188110251-be25b5b7-87ed-441f-a3cb-dbc17a18efd9.png)
+![image](https://user-images.githubusercontent.com/104793540/188112377-d4a52873-4ade-4e77-ba55-7b3336b36935.png)
 
  ## Configure your job to checkout code from the develop branch rather than the master branch
  
