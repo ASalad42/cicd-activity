@@ -1,5 +1,7 @@
 # CICD Activity
 
+![image](https://user-images.githubusercontent.com/104793540/188110251-be25b5b7-87ed-441f-a3cb-dbc17a18efd9.png)
+
  ## Configure your job to checkout code from the develop branch rather than the master branch
  
 ![image](https://user-images.githubusercontent.com/104793540/187959113-ea43616b-d45a-4c85-8fc2-63a91ffa73b0.png)
@@ -41,3 +43,4 @@ so the following was done in dev on local host > pushed > jenkins recieved and t
 
 ## create 3rd job to get code from main and deploy on AWS in a running ec2 instance
 
+- add contents of pem file into ssh > credentials 
