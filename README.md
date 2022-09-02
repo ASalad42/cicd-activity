@@ -44,3 +44,13 @@ so the following was done in dev on local host > pushed > jenkins recieved and t
 ## create 3rd job to get code from main and deploy on AWS in a running ec2 instance
 
 - add contents of pem file into ssh > credentials 
+- create new ec2 instance (new feature so cant use ami)
+- Create sg – allow Jenkins ip to ssh in as well as any rules required 
+- Create 3rd job in Jenkins: get the code from main branch and copy (scp) to ec2 – run the script  to install node with any other required dependencies  
+- 3rd job only triggered 
+- First iteration run npm install & npm start manually 
+- 4th job launch the app – if 3rd was successful 
+- Pm2 kill all - Create a 5th job to create DB_HOST=db-ip
+- Npm start 
+
+
